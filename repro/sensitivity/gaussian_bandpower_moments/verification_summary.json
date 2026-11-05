@@ -1,0 +1,108 @@
+{
+  "model": "independent Gaussian Fourier amplitudes; uniform residual assignment",
+  "bins": 560,
+  "fourier_modes": 176601,
+  "mode_counts": [
+    315,
+    316
+  ],
+  "formula": "kappa_r = (r-1)! sum_j q_j^r; q_j = delta_f*(G_j+H_j)",
+  "units": {
+    "mean": "strain^2",
+    "variance": "strain^4",
+    "standardized_moments": "dimensionless"
+  },
+  "scope": "Exact moments within the independent exponential-power model, not RP/FR or coherent LISA likelihood validation.",
+  "input_and_code_sha256": {
+    "repro/tables/all_bins_LWA_X_summary_C0p9_overlap0p9_f0p4_6mHz.csv": "7dd86d508ce82ee73316c8b6ba520b1ed95da9880e7cfec40221385fc02f7356",
+    "repro/sensitivity/residual_fourier_profile/residual_mode_power_profiles.npz": "4cb8cf4244d06c558f670043d921f73b464a9faaf532f2580f9a7526948b3c13",
+    "repro/repro_scripts/lisa_catalog_statistics.py": "b9f38233fcf3402c6a93c9f85be77434a0cb07877c7ed42c5f9386d88aece5bc",
+    "repro/repro_scripts/check_gaussian_bandpower_moments.py": "3887ed7735c1457e4fb4db5d37a26642d8144fd6955bdcbd9976461c468efd76"
+  },
+  "results": [
+    {
+      "alpha": -2.0,
+      "omega0": 1e-11,
+      "beta": 1.0,
+      "reconstruction_max_relative_error": {
+        "mean": 1.6653345369377348e-15,
+        "variance": 1.7763568394002505e-15,
+        "nu_eff": 3.219646771412954e-15,
+        "instrument_power": 0.0,
+        "sgwb_power": 0.0
+      },
+      "nu_eff": {
+        "min": 629.466717548198,
+        "max": 631.9999955310951
+      },
+      "skewness": {
+        "min": 0.11250879128593595,
+        "max": 0.11283036729722593
+      },
+      "excess_kurtosis": {
+        "min": 0.018987342309194015,
+        "max": 0.019112165741186744
+      },
+      "nu_eff_over_2M": {
+        "min": 0.9991535199177746,
+        "max": 0.999999992928948
+      }
+    },
+    {
+      "alpha": 0.0,
+      "omega0": 1e-11,
+      "beta": 1.0,
+      "reconstruction_max_relative_error": {
+        "mean": 1.6653345369377348e-15,
+        "variance": 1.5543122344752192e-15,
+        "nu_eff": 3.219646771412954e-15,
+        "instrument_power": 0.0,
+        "sgwb_power": 0.0
+      },
+      "nu_eff": {
+        "min": 629.7814652483611,
+        "max": 631.9999929528096
+      },
+      "skewness": {
+        "min": 0.11250879197441647,
+        "max": 0.11274588984128263
+      },
+      "excess_kurtosis": {
+        "min": 0.018987342619034498,
+        "max": 0.01907406614477317
+      },
+      "nu_eff_over_2M": {
+        "min": 0.999653119441843,
+        "max": 0.9999999888493823
+      }
+    },
+    {
+      "alpha": 2.0,
+      "omega0": 1e-11,
+      "beta": 1.0,
+      "reconstruction_max_relative_error": {
+        "mean": 1.7763568394002505e-15,
+        "variance": 1.5543122344752192e-15,
+        "nu_eff": 3.774758283725532e-15,
+        "instrument_power": 0.0,
+        "sgwb_power": 0.0
+      },
+      "nu_eff": {
+        "min": 629.7835033937457,
+        "max": 631.9999937622107
+      },
+      "skewness": {
+        "min": 0.1125087917582818,
+        "max": 0.11274534318232333
+      },
+      "excess_kurtosis": {
+        "min": 0.018987342521766246,
+        "max": 0.019073819724447768
+      },
+      "nu_eff_over_2M": {
+        "min": 0.9996563545932472,
+        "max": 0.9999999901300802
+      }
+    }
+  ]
+}

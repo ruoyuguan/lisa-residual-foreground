@@ -1,0 +1,20 @@
+{
+  "title": "LISA residual Galactic binary foreground: analysis code and numerical results",
+  "upload_type": "software",
+  "description": "Analysis and plotting code, tests, and processed numerical results accompanying Ruo-Yu Guan and Yan Wang, Residual Galactic binary foreground in LISA stochastic gravitational-wave background inference: source power concentration and spectral degeneracy, accepted in Physical Review D (article DOI: 10.1103/4779-jw6l). The release includes the five figure inputs, catalog matching and power calculations, diagonal covariance and Fisher calculations, and direct binned-power moments. Original code is MIT licensed; supplied numerical results and figures are CC BY 4.0 as specified in DATA_LICENSE.md. Original Sangria and Erebor input files are not redistributed.",
+  "creators": [
+    {"name": "Guan, Ruo-Yu", "orcid": "0009-0000-8680-1762", "affiliation": "Huazhong University of Science and Technology"},
+    {"name": "Wang, Yan", "orcid": "0000-0001-8990-5700", "affiliation": "Huazhong University of Science and Technology"}
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-11-05",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": ["LISA", "Galactic binaries", "stochastic gravitational-wave background", "Fisher information"],
+  "related_identifiers": [
+    {"identifier": "10.1103/4779-jw6l", "scheme": "doi", "relation": "isSupplementTo"},
+    {"identifier": "10.5281/zenodo.7132178", "scheme": "doi", "relation": "isDerivedFrom"},
+    {"identifier": "10.5281/zenodo.11130700", "scheme": "doi", "relation": "isDerivedFrom"},
+    {"identifier": "https://github.com/ruoyuguan/lisa-residual-foreground", "scheme": "url", "relation": "isSupplementTo"}
+  ]
+}

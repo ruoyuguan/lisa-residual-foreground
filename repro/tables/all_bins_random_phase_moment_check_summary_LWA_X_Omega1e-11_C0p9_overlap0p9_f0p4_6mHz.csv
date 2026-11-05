@@ -1,0 +1,2 @@
+n_bins_total,n_bins_mc,n_bins_without_mc,mc_n_draws_per_bin,median_abs_mc_minus_pred_excess_kurtosis,moment_model,used_in_bandpower_covariance
+487,487,0,50000,0.008997493774753007,independent_random_phase_source_sum,False

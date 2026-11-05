@@ -1,0 +1,2 @@
+accepted_comparison_rows,matched_in_scope,matched_out_of_scope,ambiguous,unmatched,duplicate_catalog_match,matched_dgb,matched_igb,matched_vgb,max_abs_delta_frequency_Hz,max_abs_relative_delta_amplitude,frequency_tolerance_Hz,relative_tolerance,angular_tolerance_rad,frequency_derivative_atol
+6525,6511,14,0,0,0,6438,73,14,8.673617379884035e-19,0.0,1e-12,1e-12,1e-12,1e-30

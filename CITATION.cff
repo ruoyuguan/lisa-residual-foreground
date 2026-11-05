@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this version for the code and numerical results, and cite the associated article for the scientific analysis."
+title: "LISA residual Galactic binary foreground: analysis code and numerical results"
+type: software
+authors:
+  - family-names: Guan
+    given-names: Ruo-Yu
+    orcid: "https://orcid.org/0009-0000-8680-1762"
+  - family-names: Wang
+    given-names: Yan
+    orcid: "https://orcid.org/0000-0001-8990-5700"
+version: 1.0.0
+date-released: 2026-11-05
+repository-code: "https://github.com/ruoyuguan/lisa-residual-foreground"
+url: "https://github.com/ruoyuguan/lisa-residual-foreground/releases/tag/v1.0.0"
+license: MIT
+keywords:
+  - LISA
+  - gravitational waves
+  - Galactic binaries
+  - stochastic gravitational-wave background
