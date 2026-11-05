@@ -10,6 +10,7 @@ authors:
     given-names: Yan
     orcid: "https://orcid.org/0000-0001-8990-5700"
 version: 1.0.0
+doi: "10.5281/zenodo.23974185"
 date-released: 2026-11-05
 repository-code: "https://github.com/ruoyuguan/lisa-residual-foreground"
 url: "https://github.com/ruoyuguan/lisa-residual-foreground/releases/tag/v1.0.0"

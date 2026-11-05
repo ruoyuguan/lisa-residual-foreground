@@ -11,6 +11,11 @@ Preprint: https://arxiv.org/abs/2607.25349
 
 Code: https://github.com/ruoyuguan/lisa-residual-foreground
 
+Archived version 1.0.0: https://doi.org/10.5281/zenodo.23974185
+
+The version 1.0.0 archive fixes the files used by the article. Subsequent
+documentation commits do not change that archived release or its Git tag.
+
 ## What is included
 
 Version 1.0.0 contains the catalog matching, source-power calculation,
