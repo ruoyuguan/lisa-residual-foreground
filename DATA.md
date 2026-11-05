@@ -19,7 +19,8 @@ uncertainty, not a missing finite observation.
 | 5, frequency subsets | `all_bins_bin_selection_robustness_prior_requirement_*.csv` (20 rows) | `21_make_all_bin_publication_figures.py` |
 
 Full CSV filenames are listed in the directory and in `SHA256SUMS.txt`.
-The five accepted-manuscript PDFs are under `repro/figures/all_bins/`.
+Article figure PDFs are not distributed. The plotting programs generate
+them under `repro/figures/all_bins/` from the supplied numerical data.
 
 In Figure 1(c), residual and SGWB shapes are normalized by their respective
 maximum positive powers, using the `safe_norm` function. Figure 2 uses

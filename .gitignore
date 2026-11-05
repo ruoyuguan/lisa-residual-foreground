@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 data/raw/
 repro/reproduction_pipeline_*.log
+repro/figures/

@@ -7,6 +7,7 @@ import platform
 import sys
 
 import h5py
+import jinja2
 import matplotlib
 import numpy
 import pandas
@@ -22,7 +23,8 @@ def main() -> int:
         f"pandas={pandas.__version__} "
         f"h5py={h5py.__version__} "
         f"matplotlib={matplotlib.__version__} "
-        f"tables={tables.__version__}"
+        f"tables={tables.__version__} "
+        f"jinja2={jinja2.__version__}"
     )
     return 0
 

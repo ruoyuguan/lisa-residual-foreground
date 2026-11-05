@@ -11,19 +11,23 @@ Preprint: https://arxiv.org/abs/2607.25349
 
 Code: https://github.com/ruoyuguan/lisa-residual-foreground
 
+Software version: 1.0.1.
+
 Archived version 1.0.0: https://doi.org/10.5281/zenodo.23974185
 
-The version 1.0.0 archive fixes the files used by the article. Subsequent
-documentation commits do not change that archived release or its Git tag.
+The version 1.0.0 archive preserves the original code-and-results release.
+Later changes do not alter that archive or its Git tag. See `DATA_LICENSE.md`
+for the clarification concerning the article figure PDFs included in v1.0.0.
 
 ## What is included
 
-Version 1.0.0 contains the catalog matching, source-power calculation,
+This repository contains the catalog matching, source-power calculation,
 covariance and Fisher calculations, figure-generation scripts, numerical
 tables, and tests associated with the accepted manuscript. It includes
 the direct calculation of the skewness and excess kurtosis of binned power.
 The original input catalogs, manuscript source, private correspondence,
-historical exploratory programs, and private Git history are not included.
+historical exploratory programs, private Git history, and article figure PDFs
+are not included. The figures can be regenerated from the supplied data.
 
 The calculation uses orbit-averaged long-wavelength Michelson X source powers
 in equivalent incident strain. It is a scalar catalog calculation, not a
@@ -55,8 +59,8 @@ python repro/repro_scripts/21_make_all_bin_publication_figures.py
 python repro/repro_scripts/27_compute_sgwb_amplitude_dependence.py
 ```
 
-These commands rewrite the corresponding numerical summaries and figures
-under `repro/`. Figure 3(c) shows the fractional uncertainty
+These commands generate figures and update the corresponding numerical
+summaries under `repro/`. Figure 3(c) shows the fractional uncertainty
 `sigma_omega_fixed / omega0`, not its reciprocal. The default random-subset
 comparison uses 200 subsets at each size and seed 12345.
 
@@ -95,7 +99,8 @@ analysis. Cite the original Sangria and Erebor releases when using their
 data. `SHA256SUMS.txt` identifies the files distributed with this release.
 
 Original code is licensed under MIT (`LICENSE`). Supplied numerical
-results and figures are licensed under CC BY 4.0 (`DATA_LICENSE.md`).
+tables and Fourier-power profiles are licensed under CC BY 4.0
+(`DATA_LICENSE.md`). This data license does not cover the article figures.
 Upstream data retain their original authorship and licensing; see
 `UPSTREAM.md`. No license is granted here for the separately published
 article or for excluded third-party materials.
