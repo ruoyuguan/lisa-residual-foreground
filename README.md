@@ -13,6 +13,8 @@ Code: https://github.com/ruoyuguan/lisa-residual-foreground
 
 Software version: 1.0.1.
 
+Archived version 1.0.1: https://doi.org/10.5281/zenodo.23979478
+
 Archived version 1.0.0: https://doi.org/10.5281/zenodo.23974185
 
 The version 1.0.0 archive preserves the original code-and-results release.
